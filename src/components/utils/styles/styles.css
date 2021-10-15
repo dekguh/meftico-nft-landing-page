@@ -35,16 +35,17 @@
     .button {
         @apply py-3 px-6;
         @apply border border-solid rounded;
+        @apply duration-300;
     }
 
     .button-outline {
-        @apply border-pink;
-        @apply text-pink;
+        @apply border-pink hover:border-purple;
+        @apply text-pink hover:text-purple;
     }
 
     .button-primary {
-        @apply border-pink;
-        @apply bg-pink;
+        @apply border-pink hover:border-purple;
+        @apply bg-pink hover:bg-purple;
         @apply text-white;
     }
 
