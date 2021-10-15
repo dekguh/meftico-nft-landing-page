@@ -36,3 +36,31 @@ export interface ICardHomeHero {
     title?: string;
     description?: string;
 }
+
+export interface ITitleSection {
+    title: string;
+    subtitle: string;
+    classes?: string;
+}
+
+export type TDataAuction = Array<
+    {
+        author: string;
+        authorVerified: boolean;
+        title: string;
+        bidPrice: number;
+        image: string;
+        date: string;
+        expired: number;
+    }
+>
+
+export interface ICardAuction {
+    author: string;
+    authorVerified: boolean;
+    title: string;
+    bidPrice: number;
+    image: string;
+    date: string;
+    expired: number;
+}
