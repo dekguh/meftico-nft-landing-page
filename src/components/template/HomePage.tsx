@@ -1,5 +1,6 @@
 import React from 'react'
 import FeatureCollectionSection from '../organisms/FeatureCollectionSection'
+import Footer from '../organisms/Footer'
 import HomeHero from '../organisms/HomeHero'
 import LatestAuction from '../organisms/LatestAuction'
 import Navigation from '../organisms/Navigation'
@@ -24,6 +25,10 @@ const HomePage : React.FC = () => {
 
             <div className='mt-20'>
                 <FeatureCollectionSection />
+            </div>
+
+            <div className='mt-20'>
+                <Footer />
             </div>
         </div>
     )
