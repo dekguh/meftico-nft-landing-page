@@ -64,3 +64,15 @@ export interface ICardAuction {
     date: string;
     expired: number;
 }
+
+export interface ICardCollection {
+    author: string;
+    authorVerified: boolean;
+    title: string;
+    image: string;
+}
+
+export interface ICardFeature {
+    icon: string;
+    title: string;
+}

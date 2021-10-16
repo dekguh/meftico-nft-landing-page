@@ -6,8 +6,7 @@ import Countdown from 'react-countdown'
 
 const CardAuction : React.FC<ICardAuction> = ({ title, author, authorVerified, image, date, expired, bidPrice }) => {
     return (
-        <div className='relative bg-navy-ascent p-3 rounded-lg'>
-            <div></div>
+        <div className='relative bg-navy-ascent p-3 rounded-lg duration-500 transform hover:scale-105'>
             <div style={{ backgroundImage: `url('${image}')` }} className='bg-no-repeat bg-center bg-cover rounded-lg pt-60 px-4 pb-4'>
                 <div className='bg-white p-3 rounded-lg'>
                     <a href='#' className='font-semibold text-pink text-lg'>{title}</a>
